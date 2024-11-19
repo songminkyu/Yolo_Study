@@ -84,6 +84,6 @@ def count_specific_classes(video_path, output_video_path, model_path, classes_to
     cv2.destroyAllWindows()
 
 
-ObjectCounter_test1('@sample/traffic 2.mp4','models/Yolo11/yolo11s.pt')
-# count_objects_in_region("path/to/video.mp4", "output_video.avi", "yolo11n.pt")
-# count_specific_classes("path/to/video.mp4", "output_specific_classes.avi", "yolo11n.pt", [0, 2])
+# ObjectCounter_test1('@sample/traffic 2.mp4','models/Yolo11/yolo11s.pt')
+# count_objects_in_region("@sample/traffic 2.mp4", "output_video.avi", "models/Yolo11/yolo11s.pt")
+# count_specific_classes("@sample/traffic 2.mp4", "output_specific_classes.avi", "models/Yolo11/yolo11s.pt", [0, 2])
